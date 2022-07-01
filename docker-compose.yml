@@ -1,0 +1,9 @@
+version: '3'
+services:
+  server:
+    image: 'lsby/node16_nginx'
+    ports:
+      - '22:22'
+    stdin_open: true
+    tty: true
+    restart: always
